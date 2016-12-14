@@ -35,7 +35,6 @@ for (var i = 0; i < directions.length; i++) {
     currentDirection = 'N';
   }
 }
-
 console.log(blocksTravelled);
 console.log(Math.abs(blocksTravelled[0]-blocksTravelled[1]));
 console.log(Math.abs(blocksTravelled[2]-blocksTravelled[3]));
